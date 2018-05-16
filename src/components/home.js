@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Home = (props) => {
-  return(
-    <div>Home!</div>
-  )
-}
+import TodoBar from './todoBar';
+import TodoListContainer from './todoListContainer';
+
+const Home = (props) => ( 
+  <div>
+    <TodoBar />
+    <TodoListContainer />
+  </div>
+)
 
 export default Home;
