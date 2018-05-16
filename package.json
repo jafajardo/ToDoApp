@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplatev2",
+  "name": "todoapp",
   "version": "1.0.0",
-  "description": "Boilerplate code to use with React projects.",
+  "description": "Todo application done in ReactJS",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config --hot",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jafajardo/React-BoilerplateV2.git"
+    "url": "git+https://github.com/jafajardo/ToDoApp.git"
   },
   "keywords": [
     "React",
-    "Boilerplate"
+    "Todo"
   ],
   "author": "Joseph Fajardo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jafajardo/React-BoilerplateV2/issues"
+    "url": "https://github.com/jafajardo/ToDoApp/issues"
   },
-  "homepage": "https://github.com/jafajardo/React-BoilerplateV2#readme",
+  "homepage": "https://github.com/jafajardo/ToDoApp#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.3.2",
